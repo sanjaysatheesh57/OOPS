@@ -1,8 +1,8 @@
-import java.util.Scanner
+import java.util.Scanner;
 import pkgoperations.Add;
-import pkgoperations.Subtract;
-import pkgoperations.Multiply;
 import pkgoperations.Divide;
+import pkgoperations.Multiply;
+import pkgoperations.Subtract;
 
 public class Arithmetic
 {
