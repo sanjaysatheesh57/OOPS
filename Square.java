@@ -1,18 +1,13 @@
-public class Square
+package graphics;
+import java.util.Scanner;
+public class Square implements  Area_cal
 {
-    double side;
-    void getinput (double s)
+    int a;
+    public void area()
     {
-        side = s;
-    }
-    double calArea()
-    {
-        return side * side;
-    }
-    public static void main(String [] args)
-    {
-        Square s = new Square ();
-        s.getinput(12.3);
-        System.out.println("Area of square = "+ s.calArea());
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input side length");
+        a = sc.nextInt();
+        System.out.println("Area of the Square : "+( a * a ));
     }
 }
